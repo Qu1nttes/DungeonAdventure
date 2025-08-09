@@ -1,5 +1,5 @@
 #pragma once
-#include "Item.h"
+#include "Include\Items\Item.h"
 class HealthPotion : public Item{
     void use(Player& palyer) override;
     std::string GetName() const override {return "Health potion";}

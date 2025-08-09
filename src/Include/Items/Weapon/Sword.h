@@ -1,5 +1,5 @@
 #pragma once
-#include "Item.h"
+#include "Include\Items\Item.h"
 
 class Sword : public Item{
 public:

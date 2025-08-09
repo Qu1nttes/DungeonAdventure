@@ -8,7 +8,7 @@ protected:
     int health;
     int damage;
 public:
-    Character (std::string name, int health, int damage);
+    Character (const std::string& name, int health, int damage);
     virtual void attack(Character &target);
     virtual void takeDamage(int amount);
     bool isAlive() const;

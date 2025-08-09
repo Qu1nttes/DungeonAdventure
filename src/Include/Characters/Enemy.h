@@ -1,5 +1,5 @@
 #pragma once
-#include <Character.h>
+#include "Include\Characters\Character.h"
 
 class Goblin : public Character{
 public:
