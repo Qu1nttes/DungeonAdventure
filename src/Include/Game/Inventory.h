@@ -9,5 +9,6 @@ private:
 public:
     void addItem(std::unique_ptr<Item> item);
     void removeItem(int index);
+    std::unique_ptr<Item> GetItemOfIndex (int index);
     void printInventory() const;
 };

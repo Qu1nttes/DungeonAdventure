@@ -10,5 +10,8 @@ void Player::takeDamage(int amount){
 }
 
 void Player::useItem(int index){
-    
+    inventory->GetItemOfIndex(index)->use(*this);
+    if(Player::inventory->GetItemOfIndex(index)->isConsumable()){
+        inventory->removeItem(index);
+    }
 }

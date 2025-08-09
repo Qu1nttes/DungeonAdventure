@@ -12,6 +12,7 @@ public:
     virtual void attack(Character &target);
     virtual void takeDamage(int amount);
     bool isAlive() const;
+    virtual void damageBoost(int damage);
     virtual ~Character() = default;
 
 
